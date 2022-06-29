@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="../Styles/Vstyles.css" rel="stylesheet" type="text/css">
+        <title>Insert Sold</title>
+    </head>
+    <script>
+        function enviarDatos(){
+            document.getElementById('form').submit();
+        }
+    </script>
+
+    <body>
+        <header >
+            
+            <A href='../index.html'><img src="../images/LOGO.png"  ></A>
+            <div class="Center"><h1>ENJOY THE TRIP <H1 style="color: rgb(243, 181, 152);">IN OUR CARS</H1></h1></div>
+            <div id="contact">CONTACT US:    tiquitos_cars@gmail.com<br><br><br>PHONE:    449-123-45-67</div>
+            
+        </header>
+    
+        <div class="box" >
+            <h2>INSERT SOLD</h2>
+            <div>
+            <form action="Insert_Sold.php" id="form" method="post">
+                <table class="mod_table" align="center" >
+                    <tr>
+                        <th colspan="2">FILL THE BLANKS</th>
+                    </tr>
+                    <tr>
+                        <td><label for="ClID">CLIENT'S ID:</label></td>
+                        <td><input class="modify_input"  id="ClID" name="ClID" type="text"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="SID">SELLER'S ID:</label></td>
+                        <td><input class="modify_input" id="SID" name="SID" type="text"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="CarID">CAR'S ID:</label></td>
+                        <td><input class="modify_input" id="CarID" name="CarID" type="text"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="SDATE">SOLD DATE:</label></td>
+                        <td><input class="modify_input" id="SDATE" name="SDATE" type="text"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="PAY_METHOD">PAYMENT METOD:</label></td>
+                        <td><input class="modify_input" id="PAY_METHOD" name="PAY_METHOD" type="text"></td>
+                    </tr>
+                    <tr>
+                        <td  colspan="2"><input style="margin:auto;" class="ghost-button" type="button" name="Ins_Student" id="Ins_Student" value="SEND" onclick="enviarDatos()"></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        </div>
+
+        
+
+    </body>
+</html>

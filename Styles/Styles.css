@@ -1,0 +1,136 @@
+*{box-sizing:border-box;margin: 0; padding: 0;}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color:rgb(53, 53, 53);
+    font-family: "Montserrat", Helvetica, sans-serif, Arial;
+    
+}
+
+form{
+    text-align: center;
+}
+
+/* --------------  HEADER  rgb(78, 78, 78) -------------- */
+
+header{
+    width: 100%;
+    height: 20vh;
+    overflow: hidden;
+    background: linear-gradient(to bottom, black, rgba(0, 0, 0, 0) 130%);
+    color: white;
+    display: flex;
+    align-items: center;
+}
+#logo{
+    margin: 15px;
+    float: left;
+    width:calc(300px/3);
+    height: calc(249px/3);
+} 
+
+
+.phrase {
+    display:flex ;
+    flex-direction: column;
+    margin: 5px;
+    text-align: left;
+    font-size: 1rem ;
+}
+
+#contact{
+    margin: 50px;
+    margin-top: 70PX ;
+    float:right;
+
+ }
+
+ /* --------------  BODY  -------------- */
+
+
+
+.img_principal{
+    width: 100%;
+    max-width: 40rem;
+    margin-top: 5rem ;
+  }
+
+.container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+  table{
+    width:75%;
+    max-width: 380px;
+    display: inline-table;
+
+    border: 3.5px solid #ffffff;
+    border-radius: 12px;
+    padding: 1%;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 40px;
+
+}
+
+
+.ghost-button {
+    color: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 0);
+    border: 2px solid rgb(243, 181, 152);
+    font-size: 2.5rem;
+    padding: 7px 12px;
+    font-weight: normal;
+    margin:auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    min-width: 110px;
+    transition: background-color 0.5s ease-out,
+              color 0.5s ease-out;
+  }
+  .ghost-button:hover, .ghost-button:active {
+    color:rgb(0, 0, 0);
+    background:rgba(243, 181, 152);
+  }
+
+  td{
+    margin: auto;
+  }
+
+input{
+    
+    width: 90%;
+    height: 60px;
+    border: 1px solid transparent;
+    border-radius: 12px;
+    background-color: rgb(251, 251, 251);
+    border:1px solid rgb(204, 203, 203);
+}
+
+
+footer{
+    font-size: 18px;
+    margin-top: 0;
+    padding: 0;
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+    background: linear-gradient(to top, black, rgba(0, 0, 0, 0) 100%);
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+
+

@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="../Styles/Vstyles.css" rel="stylesheet" type="text/css">
+        <title>Insert Client</title>
+    </head>
+    <script>
+        function enviarDatos(){
+            document.getElementById('form').submit();
+        }
+    </script>
+
+    <body>
+        <header >
+            
+            <A href='../index.html'><img src="../images/LOGO.png"  ></A>
+            <div class="Center"><h1>ENJOY THE TRIP <H1 style="color: rgb(243, 181, 152);">IN OUR CARS</H1></h1></div>
+            <div id="contact">CONTACT US:    tiquitos_cars@gmail.com<br><br><br>PHONE:    449-123-45-67</div>
+            
+        </header>
+    
+        <div class="box" >
+            <h2>INSERT CLIENT</h2>
+            <div>
+            <form action="Insert_client.php" id="form" method="post">
+                <table class="mod_table" align="center" >
+                    <tr>
+                        <th colspan="2">FILL THE BLANKS</th>
+                    </tr>
+                    <tr>
+                        <td><label for="FtName">First Name:</label></td>
+                        <td><input class="modify_input"  id="FtName" name="FtName" type="text"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="LsName">Last Name:</label></td>
+                        <td><input class="modify_input" id="LsName" name="LsName" type="text"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="ClPhone">Phone:</label></td>
+                        <td><input class="modify_input" id="ClPhone" name="ClPhone" type="text"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="ClEmail">Email:</label></td>
+                        <td><input class="modify_input" id="ClEmail" name="ClEmail" type="text"></td>
+                    </tr>
+            
+                    <tr>
+                        <td  colspan="2"><input style="margin:auto;"  class="ghost-button" type="button" name="Ins_Student" id="Ins_Student" value="SEND" onclick="enviarDatos()"></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        </div>
+
+        
+
+    </body>
+</html>

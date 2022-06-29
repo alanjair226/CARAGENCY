@@ -1,0 +1,7 @@
+header{
+    justify-content: space-around;
+}
+.phrase{
+    flex-direction: row;
+    font-size: 1.3rem;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="../Styles/Vstyles.css" rel="stylesheet" type="text/css">
+        <title>Insert Car</title>
+    </head>
+    <script>
+        function enviarDatos(){
+            document.getElementById('form').submit();
+        }
+    </script>
+
+    <body>
+        <header >
+            
+            <A href='../index.html'><img src="../images/LOGO.png"  ></A>
+            <div class="Center"><h1>ENJOY THE TRIP <H1 style="color: rgb(243, 181, 152);">IN OUR CARS</H1></h1></div>
+            <div id="contact">CONTACT US:    tiquitos_cars@gmail.com<br><br><br>PHONE:    449-123-45-67</div>
+            
+        </header>
+    
+        <div class="box" >
+            <h2>INSERT CAR</h2>
+            <div>
+            <form action="Insert_Car.php" id="form" method="post">
+                <table class="mod_table" align="center" >
+                    <tr>
+                        <th colspan="2">FILL THE BLANKS</th>
+                    </tr>
+                    <tr>
+                        <td><label for="MODEL">MODEL:</label></td>
+                        <td><input class="modify_input"  id="MODEL" name="MODEL" type="text"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="MOTOR">MOTOR:</label></td>
+                        <td><input class="modify_input" id="MOTOR" name="MOTOR" type="text"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="TRANSMITION">TRANSMITION:</label></td>
+                        <td><input class="modify_input" id="TRANSMITION" name="TRANSMITION" type="text"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="COLOR">COLOR:</label></td>
+                        <td><input class="modify_input" id="COLOR" name="COLOR" type="text"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="PRICE">PRICE:</label></td>
+                        <td><input class="modify_input" id="PRICE" name="PRICE" type="text"></td>
+                    </tr>
+                    <tr>
+                        <td  colspan="2"><input style="margin:auto;" class="ghost-button" type="button" name="Ins_Student" id="Ins_Student" value="SEND" onclick="enviarDatos()"></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        </div>
+
+        
+
+    </body>
+</html>

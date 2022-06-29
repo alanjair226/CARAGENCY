@@ -1,0 +1,29 @@
+header{
+    height: 25vh;
+}
+.container{
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5rem;
+
+}
+.img_principal{
+    width: 100%;
+    max-width: 55rem;
+    margin: auto;
+  }
+  .container{
+    margin: 3rem;
+}
+#logo{
+    margin: 15px;
+    float: left;
+    width:calc(300px/2);
+    height: calc(249px/2);
+} 
+
+.phrase{
+    flex-direction: row;
+    font-size: 1.6rem;
+}
